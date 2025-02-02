@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { AuthService } from "../../services/auth.service";
@@ -54,4 +55,9 @@ export class UserComponent implements OnInit {
             this.errorMessage = "Please fill the form correctly";
         }
     }
+=======
+
+export class UserComponent  {
+ 
+>>>>>>> 472ea3f966ce8cbb39c29b3c80973466b6162d47
 }

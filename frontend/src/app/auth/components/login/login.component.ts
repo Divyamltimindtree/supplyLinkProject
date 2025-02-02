@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { Observable, catchError, of, switchMap, tap, throwError } from "rxjs";
@@ -48,4 +49,10 @@ export class LoginComponent implements OnInit {
             this.errorMessage = "Please check the username and password.";
         }
     }
+=======
+
+
+export class LoginComponent  {
+  
+>>>>>>> 472ea3f966ce8cbb39c29b3c80973466b6162d47
 }

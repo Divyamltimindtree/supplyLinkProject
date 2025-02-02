@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -20,5 +21,11 @@ export class NavBarComponent implements OnInit {
         localStorage.removeItem('token')
         this.router.navigate(["/auth"]);
     }
+=======
+
+export class NavBarComponent{
+
+  
+>>>>>>> 472ea3f966ce8cbb39c29b3c80973466b6162d47
 
 }

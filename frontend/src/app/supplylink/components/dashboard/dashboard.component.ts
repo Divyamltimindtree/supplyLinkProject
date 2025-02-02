@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { SupplyLinkService } from '../../services/supplylink.service';
 import { Supplier } from '../../types/Supplier';
@@ -52,4 +53,9 @@ export class DashboardComponent implements OnInit {
             error: (error) => console.log('Error loading products', error)
         });
     }
+=======
+export class DashboardComponent  {
+ 
+
+>>>>>>> 472ea3f966ce8cbb39c29b3c80973466b6162d47
 }

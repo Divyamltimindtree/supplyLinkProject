@@ -10,6 +10,7 @@ import { AuthService } from "./auth/services/auth.service";
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {
+<<<<<<< HEAD
   constructor(private authService: AuthService) { }
   intercept(
     request: HttpRequest<any>,
@@ -34,4 +35,7 @@ export class AuthInterceptor implements HttpInterceptor {
 
     return next.handle(request);
   }
+=======
+  
+>>>>>>> 472ea3f966ce8cbb39c29b3c80973466b6162d47
 }
